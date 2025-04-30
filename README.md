@@ -6,7 +6,7 @@ Features a full-width hero, image slider and contact form.
 ---
 
 ## Live Demo
-> https://ken-aky.github.io/landing-page/ &nbsp;←&nbsp;hosted via **GitHub Pages**
+> https://Ken-aky.github.io/landing-page/ &nbsp;←&nbsp;hosted via **GitHub Pages**
 
 ---
 
