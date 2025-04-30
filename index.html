@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero section ---------------------------------------------- -->
+    <div class="Hero-section">
+        <!-- Navigation -->
+        <div class="Nav-container">
+            <nav class="Navbar">
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Shop</a>
+            </nav>
+        </div>
+
+        <!-- Hero image -->
+        <div class="Hero-container">
+            <img src="./Images/HeroImg7.jpg" class="Hero-img" alt="Hero image">
+        </div>
+    </div>
+
+    <!-- Text section ---------------------------------------------- -->
+    <div class="Text-section">
+        <div class="Text-container">
+            <h1 class="Heading1">
+                Shaping the future – with intelligent solutions for your business
+            </h1>
+
+            <h2 class="Heading2">
+                Boost efficiency, accelerate innovation, secure competitive advantage
+            </h2>
+
+            <p class="Text">
+                Our tailor-made services combine strategic expertise with cutting-edge technology to enable sustainable growth. As a reliable partner, we accompany you from the first analysis through to successful implementation – and beyond.
+            </p>
+
+            <ul class="List">
+                <li>Holistic consulting – sound market and process analyses for fact-based decisions.</li>
+                <li>Technological excellence – proven and future-oriented tools to optimise your value chain.</li>
+                <li>Measurable results – transparent KPIs and continuous reporting ensure lasting project success.</li>
+            </ul>
+
+            <button class="Text-Btn">
+                Request a free consultation
+            </button>
+        </div>
+    </div>
+
+    <!-- Slider ----------------------------------------------------- -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="./Images/SliderImg1.jpg" alt="Slide 1">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./Images/SliderImg4.jpg" alt="Slide 2">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./Images/SliderImg5.jpg" alt="Slide 3">
+        </div>
+
+        <!-- Previous / Next buttons (handled by JS) -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots / indicators -->
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Footer / Contact ------------------------------------------ -->
+    <div class="Contact">
+        <h1 class="Contact-Header">Contact</h1>
+        <p class="Contact-Text">Please leave your number – we will call you back</p>
+        <input type="text" placeholder="Enter your name">
+        <input type="text" placeholder="Enter your phone number">
+        <button class="Contact-btn">Submit</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
